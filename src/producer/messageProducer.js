@@ -121,7 +121,8 @@ module.exports = ({
       acks,
       timeout,
       compression,
-      topicMessages: [topicMessage],
+      topic, 
+      messages,
     })
   }
 
